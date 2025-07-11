@@ -1,17 +1,11 @@
+
 const person = {
-    name: 'Kyle',
-    friend: {
-        name: "Joe",
-        friend: {
-            name: 'Sally'
-        }
-    }
+
 }
 
-function printNames(currentPerson) {
-    if (currentPerson == null) return
-    console.log(currentPerson.name)
-    printNames(currentPerson.friend)
-}
+// if (person != null && person.address != null) {
+// console.log(person.address.street)
+// }
 
-printNames(person)
+console.log(person && person.address && person.address.street)
+
