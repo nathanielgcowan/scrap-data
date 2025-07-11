@@ -1,7 +1,20 @@
-const isUserLoggedIn = true
+const favoriteAnimal = 'shark'
 
-isUserLoggedIn ? console.log("logged in") : console.log('logged out')
+if (favoriteAnimal === 'cat') {
+    console.log('cats are pretty cool')
+} else if (favoriteAnimal === 'dog') {
+    console.log('they are pretty cool')
+} else if (favoriteAnimal === 'shark') {
+    console.log('interesting choice')
+} else {
+    console.log('that is cool but I am unfamiliar with that animal')
+}
 
-const welcomeMessage = isUserLoggedIn ? "welcome" : "please log in"
-
-console.log(welcomeMessage)
+switch (favoriteAnimal) {
+    case "cat":
+        console.log("cats are pretty cool")
+    case "dog":
+        console.log("they are kinda loud")
+    case "shark":
+        console.log("that is an interesting choice")
+}
