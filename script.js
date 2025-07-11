@@ -1,21 +1,7 @@
-// 1. Select all elements
-const form = document.querySelector('#new-item-form')
-const list = document.querySelector('#list')
-const input = document.querySelector('#item-input')
+const isUserLoggedIn = true
 
-// 2. When I submit the form add a new element
-form.addEventListener('#submit', e => {
-    e.preventDefault();
-    
-    // 1. Create a new item
-    const item = document.createElement('div')
-    item.innerText = input.value
-    item.classList.add('list-item')
+isUserLoggedIn ? console.log("logged in") : console.log('logged out')
 
-    console.log(item)
+const welcomeMessage = isUserLoggedIn ? "welcome" : "please log in"
 
-    // 2. Add that item to the list
-    // 3. Clear input
-    // 4. Setup event listener to deleter item when clicked
-    console.log(input.value)
-})
+console.log(welcomeMessage)
