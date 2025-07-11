@@ -1,20 +1,11 @@
-const favoriteAnimal = 'shark'
-
-if (favoriteAnimal === 'cat') {
-    console.log('cats are pretty cool')
-} else if (favoriteAnimal === 'dog') {
-    console.log('they are pretty cool')
-} else if (favoriteAnimal === 'shark') {
-    console.log('interesting choice')
-} else {
-    console.log('that is cool but I am unfamiliar with that animal')
+for (let i = 0; i < 1; i++) {
+    console.log('Test')
+    break;
 }
 
-switch (favoriteAnimal) {
-    case "cat":
-        console.log("cats are pretty cool")
-    case "dog":
-        console.log("they are kinda loud")
-    case "shark":
-        console.log("that is an interesting choice")
+// Create a for loop that loops from 0 to 10 and prints out all values from 0 to 10
+for (let i=0; i < 11; i++) {
+    console.log(i)
+    if (i === 5) break
 }
+// Modify this loop and exit the loop when the value is equal to 5 by using break
