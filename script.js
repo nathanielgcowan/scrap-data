@@ -1,2 +1,2 @@
-// How to store information in the user's browser.
-// Cookies, localStorage, sessionStorage
+localStorage.setItem("Name", "Kyle")
+sessionStorage.setItem("Age", "25")
